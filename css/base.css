@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.header {
+    background-color: #c8e5e3;
+    color: black!important;
+    margin: 0px 0px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+a{
+  color:  white;
+}
+
+.botones {
+    height: 100%;
+    text-align: center;
+
+}
+
+.nav-tabs {
+    list-style: none;
+    text-align: center;
+    color: white;
+    border-radius: none!important;
+}
+
+.tab-content {
+    border: none;
+    color: white;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.nav-tabs>li>a {
+    color: white;
+    border: 10px;
+    border: none !important;
+    border-radius: 0px;
+}
+
+.nav-tabs>li>a:hover {
+
+    border-radius: none;
+    border: none;
+    transition: all 0.1s linear;
+    color: #5ebdb2;
+    background-color: transparent;
+
+}
+
+.nav-tabs.nav-justified>li>a {
+    border-radius: 0px;
+    line-height: 100%;
+}
+
+.row{
+  color: black;
+}
+
+
+#barra_inferior{
+  color:white!important;
+  background-color: #142b3b;
+
+}
+
+h1{
+  color:black;
+}
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
+
+  color: #5ebdb2;
+  background-color: transparent;
+}
